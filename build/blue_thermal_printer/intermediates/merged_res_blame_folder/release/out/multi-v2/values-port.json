@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\PROJECT\\dapurmamakarvin\\multiprovider-main\\multiprovider-main\\build\\blue_thermal_printer\\intermediates\\merged_res\\release\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-3\\314baeb09f65a7cee9a0a98683b112e8\\transformed\\appcompat-1.4.2\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\PROJECT\\dapurmamakarvin\\multiprovider-main\\multiprovider-main\\build\\blue_thermal_printer\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-3\\314baeb09f65a7cee9a0a98683b112e8\\transformed\\appcompat-1.4.2\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

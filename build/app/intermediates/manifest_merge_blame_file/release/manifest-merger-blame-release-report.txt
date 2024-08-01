@@ -1,0 +1,196 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dapurmamakarvin"
+4    android:versionCode="4002"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+12-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:4:5-77
+12-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:4:22-75
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:5:5-75
+13-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:5:22-73
+14    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+14-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:6:5-72
+14-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:6:22-70
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Request legacy Bluetooth permissions on older devices. -->
+15-->[:blue_thermal_printer] F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\build\blue_thermal_printer\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+15-->[:blue_thermal_printer] F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\build\blue_thermal_printer\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->[:blue_thermal_printer] F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\build\blue_thermal_printer\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-68
+16-->[:blue_thermal_printer] F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\build\blue_thermal_printer\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->[:blue_thermal_printer] F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\build\blue_thermal_printer\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-74
+17-->[:blue_thermal_printer] F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\build\blue_thermal_printer\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-71
+18    <!--
+19         Needed only if your app looks for Bluetooth devices.
+20         You must add an attribute to this permission, or declare the
+21         ACCESS_FINE_LOCATION permission, depending on the results when you
+22         check location usage in your app.
+23    -->
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->[:blue_thermal_printer] F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\build\blue_thermal_printer\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-79
+24-->[:blue_thermal_printer] F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\build\blue_thermal_printer\intermediates\merged_manifest\release\AndroidManifest.xml:20:22-76
+25    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+25-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:22:5-65
+25-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:22:22-62
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:25:5-27:36
+27        android:name="android.hardware.camera"
+27-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:26:9-47
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:27:9-33
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:28:5-30:36
+30        android:name="android.hardware.camera.front"
+30-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:29:9-53
+31        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+31-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:30:9-33
+32    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:33:5-35:36
+34        android:name="android.hardware.camera.autofocus"
+34-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:34:9-57
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:35:9-33
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:36:5-38:36
+37        android:name="android.hardware.camera.flash"
+37-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:37:9-53
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:38:9-33
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:39:5-41:36
+40        android:name="android.hardware.screen.landscape"
+40-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:40:9-57
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:41:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:42:5-44:36
+43        android:name="android.hardware.wifi"
+43-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:43:9-45
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:44:9-33
+45
+46    <application
+47        android:name="android.app.Application"
+47-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:9:9-42
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.7.0] C:\Users\ahmad\.gradle\caches\transforms-3\5e083c06c9925c2309f02468fc66e376\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+49        android:icon="@mipmap/ic_launcher"
+49-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:10:9-43
+50        android:label="Dapur Mamak Arvin" >
+50-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:8:9-42
+51        <activity
+51-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:11:9-31:20
+52            android:name="com.dapurmamakarvin.MainActivity"
+52-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:12:13-41
+53            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+53-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:16:13-163
+54            android:exported="true"
+54-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:13:13-36
+55            android:hardwareAccelerated="true"
+55-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:17:13-47
+56            android:launchMode="singleTop"
+56-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:14:13-43
+57            android:theme="@style/LaunchTheme"
+57-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:15:13-47
+58            android:windowSoftInputMode="adjustResize" >
+58-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:18:13-55
+59
+60            <!--
+61                 Specifies an Android theme to apply to this Activity as soon as
+62                 the Android process has started. This theme is visible to the user
+63                 while the Flutter UI initializes. After that, this theme continues
+64                 to determine the Window background behind the Flutter UI.
+65            -->
+66            <meta-data
+66-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:23:13-26:17
+67                android:name="io.flutter.embedding.android.NormalTheme"
+67-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:24:15-70
+68                android:resource="@style/NormalTheme" />
+68-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:25:15-52
+69
+70            <intent-filter>
+70-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:27:13-30:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:28:17-68
+71-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:28:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:29:17-76
+73-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:29:27-74
+74            </intent-filter>
+75        </activity>
+76        <!--
+77             Don't delete the meta-data below.
+78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+79        -->
+80        <meta-data
+80-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:34:9-36:33
+81            android:name="flutterEmbedding"
+81-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:35:13-44
+82            android:value="2" />
+82-->F:\PROJECT\dapurmamakarvin\multiprovider-main\multiprovider-main\android\app\src\main\AndroidManifest.xml:36:13-30
+83
+84        <uses-library
+84-->[androidx.window:window:1.0.0-beta04] C:\Users\ahmad\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+85            android:name="androidx.window.extensions"
+85-->[androidx.window:window:1.0.0-beta04] C:\Users\ahmad\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+86            android:required="false" />
+86-->[androidx.window:window:1.0.0-beta04] C:\Users\ahmad\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+87        <uses-library
+87-->[androidx.window:window:1.0.0-beta04] C:\Users\ahmad\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+88            android:name="androidx.window.sidecar"
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\ahmad\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+89            android:required="false" />
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\ahmad\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+90
+91        <activity
+91-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:47:9-53:63
+92            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+92-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:48:13-74
+93            android:clearTaskOnLaunch="true"
+93-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
+94            android:screenOrientation="sensorLandscape"
+94-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:50:13-56
+95            android:stateNotNeeded="true"
+95-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
+96            android:theme="@style/zxing_CaptureTheme"
+96-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
+97            android:windowSoftInputMode="stateAlwaysHidden" />
+97-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\ahmad\.gradle\caches\transforms-3\bc6ccd297ced8c50519cf388c642550d\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmad\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmad\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+101            android:authorities="com.dapurmamakarvin.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmad\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmad\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmad\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmad\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmad\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahmad\.gradle\caches\transforms-3\f84ca6d456abb0b1140abea481061573\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahmad\.gradle\caches\transforms-3\f84ca6d456abb0b1140abea481061573\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahmad\.gradle\caches\transforms-3\f84ca6d456abb0b1140abea481061573\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+109        </provider>
+110    </application>
+111
+112</manifest>

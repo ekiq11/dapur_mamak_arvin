@@ -1,0 +1,1 @@
+ F:\\PROJECT\\dapurmamakarvin\\multiprovider-main\\multiprovider-main\\.dart_tool\\flutter_build\\c4fb6a2923a7990bddc08088bf398c41\\native_assets.yaml: 

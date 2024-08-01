@@ -1,0 +1,4 @@
+#Fri Dec 08 14:44:00 WITA 2023
+base.0=F\:\\PROJECT\\dapurmamakarvin\\multiprovider-main\\multiprovider-main\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

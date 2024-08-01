@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\PROJECT\\dapurmamakarvin\\multiprovider-main\\multiprovider-main\\build\\blue_thermal_printer\\intermediates\\merged_res\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-3\\5e083c06c9925c2309f02468fc66e376\\transformed\\core-1.7.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "F:\\PROJECT\\dapurmamakarvin\\multiprovider-main\\multiprovider-main\\build\\blue_thermal_printer\\intermediates\\merged_res\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-3\\314baeb09f65a7cee9a0a98683b112e8\\transformed\\appcompat-1.4.2\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "F:\\PROJECT\\dapurmamakarvin\\multiprovider-main\\multiprovider-main\\build\\blue_thermal_printer\\intermediates\\merged_res\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-3\\314baeb09f65a7cee9a0a98683b112e8\\transformed\\appcompat-1.4.2\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "F:\\PROJECT\\dapurmamakarvin\\multiprovider-main\\multiprovider-main\\build\\blue_thermal_printer\\intermediates\\merged_res\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-3\\314baeb09f65a7cee9a0a98683b112e8\\transformed\\appcompat-1.4.2\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\PROJECT\\dapurmamakarvin\\multiprovider-main\\multiprovider-main\\build\\blue_thermal_printer\\intermediates\\merged_res\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-3\\314baeb09f65a7cee9a0a98683b112e8\\transformed\\appcompat-1.4.2\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\PROJECT\\dapurmamakarvin\\multiprovider-main\\multiprovider-main\\build\\blue_thermal_printer\\intermediates\\merged_res\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-3\\314baeb09f65a7cee9a0a98683b112e8\\transformed\\appcompat-1.4.2\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    }
+]
